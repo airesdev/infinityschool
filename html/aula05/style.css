@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.caixa01 {
+    background-image: url(https://softdesign.com.br/wp-content/webpc-passthru.php?src=https://softdesign.com.br/wp-content/uploads/2023/01/business-agility-scaled-e1698672820276.jpg&nocache=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100vw;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.caixa02 {
+    background-image: url();
+    max-width: 100vw;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* rem - 16px
+    vh e vw - viewport width/height */
