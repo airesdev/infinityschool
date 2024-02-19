@@ -1,0 +1,129 @@
+@font-face {
+    font-family: title;
+    src: url(./fonts/title.ttf);
+}
+body {
+    background-color: #FDF7E4;
+    color: #1F1717;
+}
+a {
+    font-family: title;
+    font-size: 2rem;
+    color: #FDF7E4;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.title {
+    font-family: title;
+    font-size: 5rem;
+}
+
+
+#top {
+    background-color: #FF9B50;
+    color: #FDF7E4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.list {
+    display: flex;
+    gap: 2rem;
+}
+
+
+#head {
+    background-color: #C63D2F;
+    font-family: title;
+    font-size: 3rem;
+    color: #FDF7E4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+#cardapio {
+    background-color: #FFBB5C;
+    background-image: url(./content/pizza02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    filter: contrast(72%);
+    filter: saturate(72%);
+    transition-duration: 0.5s;
+}
+#cardapio a {
+    color: #1F1717;
+    background-color: #FFBB5C;
+    padding: 12rem;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+}
+#cardapio a:hover {
+    font-size: 3rem;
+    padding: 2rem;
+    transition-duration: 0.5s;
+}
+
+
+#pedir {
+    background-color: #C63D2F;
+    font-family: title;
+    font-size: 3rem;
+    color: #FDF7E4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+#contato {
+    background-color: #FF9B50;
+    font-family: text;
+    font-size: 2rem;
+    color: #FDF7E4;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#sobre {
+    background-color: #FFBB5C;
+    font-family: text;
+    font-size: 2rem;
+    color: #1F1717;
+    text-align: end;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.rotating {
+    -webkit-animation:spin 64s linear infinite;
+    -moz-animation:spin 64s linear infinite;
+    animation:spin 64s linear infinite;
+    transition: 2s;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    }
+}
