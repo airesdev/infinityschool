@@ -42,6 +42,7 @@
     //     }
     // }
 
+    
 // atividade 01
     // const pares = []
     // const impares = []
@@ -56,8 +57,8 @@
     // console.log(pares)
     // console.log(impares)
 
-// atividade 03 (~30 lines)
 
+// atividade 03 (~30 lines)
 const perguntas = [1, 2, 3, 4, 5]
 const respostas = []
 let positivo = 0
