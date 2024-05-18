@@ -1,0 +1,59 @@
+body {
+    background: #45554c;
+    color: #d0af9e;
+    overflow-x: hidden;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #2e2127;
+    text-decoration: underline 0.15em #2e212700;
+    transition: 300ms;
+} a:hover {
+    text-decoration-color: #2e2127;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #d0af9e;
+    color: #2e2127;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} .portrait {
+    padding: 2rem;
+} img {
+    border-radius: 1rem;
+    width: 50vw;
+}
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.title {
+    padding: 3rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}

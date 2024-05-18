@@ -1,0 +1,94 @@
+@font-face {font-family: Pro; src: url(./fonts/pro/SF-Pro.ttf);}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pro;
+    background-image: url(./login/bg.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-field {
+    background: rgba(255, 255, 255, 0.2);
+    font-family: Pro;
+    font-size: 21px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    color: white;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.generic-container {
+    min-height: 60vh;
+    min-width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+    background: #00000000;
+    transition: 1s;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+}
+.cover {
+    width: 110vw;
+    height: 110vh;
+}
+.btn-small {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    font-family: Pro;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn-big {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-family: Pro;
+    font-size: 2rem;
+    font-weight: normal;
+}
